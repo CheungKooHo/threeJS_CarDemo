@@ -1,0 +1,20 @@
+{
+  "name": "three-proj",
+  "version": "1.0.0",
+  "description": "a three project demo",
+  "author": "coan",
+  "license": "MIT",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  },
+  "dependencies": {
+    "@tweenjs/tween.js": "^19.0.0",
+    "lil-gui": "^0.18.1",
+    "three": "^0.151.3"
+  }
+}
